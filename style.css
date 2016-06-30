@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+body {
+    background: url('cute-duck-in-the-water-wallpaper.jpg') no-repeat center center fixed;
+    padding-top: 60px;
+}
+#inputSection, #weatherWrap {
+    display: inline-block;
+    vertical-align: top;
+    border: 3px groove rgb(32,69,80);
+}
+#inputSection {
+    width: 250px;
+    min-height: 700px;
+    background-color: rgba(82,174,201,.5);
+    padding: 30px;
+}
+#weatherWrap {background-color: rgba(82,174,201,.5);}
+#weatherOutput {
+    width: 750px;
+    min-height: 685px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5px;
+    padding: 30px;
+}
+.printCityInfo {
+    width: 45%;
+    height: 200px;
+    border: 1px solid rgb(80,80,80);
+    border-radius: 7px;
+    padding: 10px;
+/*
+    background: -webkit-linear-gradient(rgb(36,48,94),rgb(21,28,56));
+    background: -moz-linear-gradient(rgb(36,48,94),rgb(21,28,56));
+    background: -o-linear-gradient(rgb(36,48,94),rgb(21,28,56));
+    background: linear-gradient(rgb(36,48,94),rgb(21,28,56));
+*/
+    color: #FFF;
+    margin: 10px 0 15px 0;
+    background-image: url('Baby-Duck-Swimming.jpg');
+    background-size: cover;
+}
+span {
+    font-weight: bold;
+}
+#degrees {
+    margin-top: 30px;
+}
