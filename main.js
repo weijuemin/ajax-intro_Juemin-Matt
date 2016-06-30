@@ -7,7 +7,7 @@ $(function(){
         $.get(url, function(res){
             var w = res.wind.deg;
             var windDir;
-            var pubDate = new Date(res.dt);
+            var pubDate = new Date(res.dt *1000);
             if (w >10 && w<80){ windDir = "NE"; }
             else if (w>=80 && w<=100) { windDir = "N"; }
             else if (w>100 && w<170) { windDir = "NW"; }
